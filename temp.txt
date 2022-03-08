@@ -1,0 +1,46 @@
+<!--Navbar-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+
+        <!--Brand-->
+        <a class="navbar-brand" href="#">
+            <img src="Picture/Avatar.jpg" style="width:64px; margin-left: 10px">
+        </a>
+
+        <!--ToggleButton-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--NavbarItems-->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar" >
+            <ul class="navbar-nav mr-auto ml-auto" style="font-size: 30px;">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Language</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Education</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+.small_section{
+    font-style: italic;
+    font-weight: inherit;
+    font-size: x-large;
+}
+.disc li{
+    list-style: disc;
+    padding-top: 10px;
+}
